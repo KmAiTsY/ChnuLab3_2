@@ -6,7 +6,7 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 
 # pd.set_option('display.max_columns', 100)
-# pd.set_option('display.max_rows', 1000)
+pd.set_option('display.max_rows', 1000)
 
 df = pd.read_csv('StudentsPerformance.csv')
 
@@ -77,10 +77,11 @@ def Dispersion(df):
     for col in numeric_cols:
         print(Normalize(df)[col].var())
         print(Normalize(df)[col].sum())
-# Outlier(df)
+# DeleteNaN(df)
+# ChangeNaN(df)
+Outlier(df)
+
 # Centring(df)
 # print(df.describe());
 # print(Normalize(df))
 # Dispersion(df)
-sns.histplot()
-plt.show()
