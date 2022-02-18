@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a6427e71-d127-48a4-b444-fd02bce94655" name="Changes" comment="" />
+    <list default="true" id="a6427e71-d127-48a4-b444-fd02bce94655" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../../Eda/lab1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Eda/lab1/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Eda/lab1/StudentsPerformance.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../../Eda/lab1/StudentsPerformance.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Eda/lab1/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../Eda/lab1/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab16/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../lab16/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -32,14 +38,19 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
-    <property name="nodejs_interpreter_path" value="$APPLICATION_CONFIG_DIR$/node/node-v14.15.0-win-x64/node" />
+    <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="settings.nodejs" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager" selected="npm.npm start">
+  <component name="RunManager" selected="JavaScript Debug.index.html">
     <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
+      <method v="2" />
+    </configuration>
+    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/lab17/src/index.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="npm start" type="js.build_tools.npm">
@@ -52,6 +63,11 @@
       <envs />
       <method v="2" />
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.index.html" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -62,10 +78,21 @@
       <option name="presentableId" value="Default" />
       <updated>1644561799953</updated>
       <workItem from="1644561801681" duration="9098000" />
+      <workItem from="1645053417784" duration="198000" />
+      <workItem from="1645053640201" duration="47000" />
+      <workItem from="1645053710054" duration="46000" />
+      <workItem from="1645055955885" duration="124000" />
+      <workItem from="1645063257901" duration="90000" />
+      <workItem from="1645096087156" duration="426000" />
+      <workItem from="1645166728223" duration="10000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
