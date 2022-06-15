@@ -1,0 +1,50 @@
+<div class="container center">
+  <div>
+    <p>{{ name }}</p>
+    <p>{{ surname }}</p>
+    <p>{{ age }}</p>
+  </div>
+
+  <div>
+    <p>{{ langs.name }} {{ langs.surname }}, {{ langs.age }}</p>
+  </div>
+
+  <div>
+    <ul>
+      <li *ngFor="let item of countries | keyvalue">
+        {{ item.key }}:{{ item.value }}
+      </li>
+    </ul>
+  </div>
+
+  <div>
+    <ul *ngFor="let x of workers">
+      <li>Name: {{ x.name }}, Age: {{ x.age }}, Salary: {{ x.salary }}</li>
+    </ul>
+  </div>
+
+  <div>
+    <p (click)="changeName()" class="change__name">{{ name }}</p>
+  </div>
+
+  <div>
+    <p>{{ name }}</p>
+    <p>{{ surname }}</p>
+    <p>{{ age }}</p>
+
+    <button (click)="change(1)">Change name</button>
+    <button (click)="change(2)">Change surname</button>
+    <button (click)="change(3)">Change age</button>
+  </div>
+
+  <div>
+    <ul *ngFor="let item of arrLang">
+      <li>{{ item }}</li>
+    </ul>
+    <button (click)="changeSql()">Change</button>
+    <button (click)="addToArr()">Add</button>
+    <button (click)="addToStart()">Add to start</button>
+    <button (click)="deletePhp()">Delete php</button>
+    <button (click)="deleteHtml()">Delete html</button>
+  </div>
+</div>

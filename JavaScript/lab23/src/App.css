@@ -1,38 +1,84 @@
-.App {
-  text-align: center;
+body {
+  font-size: 16px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+input {
+  outline: none;
+  font-size: 16px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+ul,
+li {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.container {
+  padding: 20px;
+  max-width: 1130px;
+  margin: 0 auto;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.item {
+  margin-bottom: 20px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.center {
+  text-align: center;
+}
+
+.task1__input_red {
+  border: 2px solid red;
+  padding: 2px;
+}
+
+.task1__input_green {
+  border: 2px solid green;
+  padding: 2px;
+}
+
+.table {
+  border: 2px solid gray;
+  margin-bottom: 10px;
+}
+
+.table td {
+  border: 1px solid gray;
+  padding: 5px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.input__item {
+  margin-bottom: 5px;
+}
+
+.validation__row {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.validation__item {
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.select {
+  margin-bottom: 10px;
+}
+
+.course__button {
+  padding: 3px;
+  border: 1px solid black;
+  border-radius: 10px;
+  margin-left: 5px;
+  margin-right: 5px;
+  cursor: pointer;
 }

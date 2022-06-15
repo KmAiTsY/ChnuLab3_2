@@ -1,0 +1,137 @@
+.valid-input1 {
+    border: 1px solid green
+}
+
+.invalid-input1 {
+    border: 1px solid red
+}
+
+.valid-input1:focus {
+    outline-color: green;
+    border: 1px solid green;
+}
+
+.invalid-input1:focus {
+    outline-color: red;
+    border: 1px solid red;
+}
+
+.correct {
+    color: green
+}
+
+.incorrect {
+    color: red
+}
+
+span {
+    color: blue;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.btn-disable {
+    cursor: not-allowed;
+    pointer-events: none;
+
+    /*Button disabled - CSS color class*/
+    color: #c0c0c0;
+    background-color: #ffffff;
+}
+
+.datepicker {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 0.8rem;
+    background-color: #fff;
+    color: #000;
+    border: 1px solid #aeaeae;
+    border-radius: 0.3rem;
+    display: inline-block;
+    position: relative;
+}
+
+.datepicker-header {
+    text-align: center;
+    background-color: #f0f0f0;
+    border-bottom: 1px solid #aeaeae;
+    border-top-left-radius: 0.3rem;
+    border-top-right-radius: 0.3rem;
+    padding-top: 8px;
+    position: relative;
+}
+
+.datepicker-current-month {
+    margin-top: 0;
+    color: #000;
+    font-weight: bold;
+    font-size: 0.944rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.datepicker-day {
+    color: #000;
+    display: flex;
+    flex-direction: column;
+    width: 1.7rem;
+    line-height: 1.7rem;
+    text-align: center;
+    margin: 0.166rem;
+    cursor: pointer;
+}
+
+.datepicker-selected-day {
+    color: #000;
+    border-radius: 0.3rem;
+    background-color: #b6d6ff;
+    display: inline-block;
+    width: 1.7rem;
+    line-height: 1.7rem;
+    text-align: center;
+    margin: 0.166rem;
+    cursor: pointer;
+}
+
+.datepicker-day:hover {
+    border-radius: 0.3rem;
+    background-color: #f0f0f0;
+}
+
+.datepicker-selected-day:hover {
+    border-radius: 0.3rem;
+    background-color: #99c4fc;
+}
+
+.datepicker-navigation {
+    text-align: center;
+    cursor: pointer;
+    border: 0.45rem solid transparent;
+}
+
+.datepicker-icon {
+    background-color: transparent;
+    border: 0;
+    cursor: pointer;
+    display: inline-block;
+    height: 0;
+    outline: 0;
+    padding: 0;
+    vertical-align: middle;
+}
+
+.datepicker-icon::before {
+    background-color: #216ba5;
+    border-radius: 50%;
+    box-sizing: border-box;
+    color: #fff;
+    content: "\00b7";
+    cursor: pointer;
+    font-size: 12px;
+    height: 4px;
+    width: 4px;
+    line-height: 2;
+    margin: -2px;
+    padding: 2px;
+    position: absolute;
+    text-align: center;
+}

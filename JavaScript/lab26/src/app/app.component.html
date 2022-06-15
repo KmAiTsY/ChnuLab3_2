@@ -1,0 +1,60 @@
+<div class="container center">
+  + 3
+  <div *ngFor="let item of numbers">
+    <span>{{ item }} = {{ item + 3 }}</span>
+  </div>
+  <br />
+
+  до квадрату
+  <div *ngFor="let item of numbers">
+    <span>{{ item }} = {{ item * item }} </span>
+  </div>
+  <br />
+
+  reverse
+
+  <ul *ngFor="let item of numbers2">
+    <li>{{ item }}</li>
+  </ul>
+  <button (click)="reverseArray()">reverse</button>
+  <br />
+  <br />
+
+  <div>
+    <ul *ngFor="let item of arrLang">
+      <li>{{ item }}</li>
+    </ul>
+    <button (click)="addPlus()">Add +</button>
+  </div>
+  <br />
+
+  <div>
+    First array
+    <ul *ngFor="let item of names">
+      <li>{{ item }}</li>
+    </ul>
+    <br />
+    Second array
+    <ul *ngFor="let item of names2">
+      <li>{{ item }}</li>
+    </ul>
+    <button (click)="changeNames()">Add on top</button>
+  </div>
+  <br />
+
+  <table class="table">
+    <tr *ngFor="let item of numbers3">
+      <td>{{ item }}</td>
+    </tr>
+  </table>
+
+  <!--  -->
+
+  <div>
+    <ul>
+      <li *ngFor="let item of countries | keyvalue">
+        {{ item.key }} : {{ item.value }}
+      </li>
+    </ul>
+  </div>
+</div>
